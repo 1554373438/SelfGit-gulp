@@ -1,0 +1,221 @@
+.browserSync {
+  color: red;
+  font-size: 40px;
+  border: 1px solid #f60; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  background-color: #fff;
+  background-size: 100% 100%; }
+
+[v-cloak] {
+  display: none; }
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5); }
+
+.content {
+  width: 90%;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -omz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
+  .content .phone {
+    width: 80%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+    margin: 150px auto 0;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+    box-sizing: border-box; }
+  .content b {
+    text-align: center;
+    font-size: 12px;
+    color: #e23a39;
+    display: block;
+    margin-top: 10px; }
+  .content p {
+    color: #c0b6a1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 0 20px; }
+  .content .btns {
+    width: 70%;
+    height: 62px;
+    font-size: 30px;
+    color: #f3eed1;
+    text-align: center;
+    line-height: 62px;
+    display: block;
+    outline: 0;
+    border: 0;
+    margin: 0 auto 60px;
+    background-size: 100% 100%; }
+  .content .btn2 {
+    width: 70%;
+    height: 62px;
+    font-size: 30px;
+    color: #f3eed1;
+    text-align: center;
+    line-height: 62px;
+    display: block;
+    outline: 0;
+    border: 0;
+    margin: 0 auto 60px;
+    background-size: 100% 100%;
+    margin-top: 10px; }
+  .content .btn3 {
+    width: 70%;
+    height: 62px;
+    font-size: 30px;
+    color: #f3eed1;
+    text-align: center;
+    line-height: 62px;
+    display: block;
+    outline: 0;
+    border: 0;
+    margin: 0 auto 0px;
+    background-size: 100% 100%; }
+  .content .close {
+    width: 30px;
+    height: 30px;
+    color: #e38377;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #e38377;
+    font-size: 30px; }
+
+.input {
+  width: 80%;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin: 10px auto 0px; }
+  .input input {
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+    font-size: 16px;
+    display: block;
+    padding-left: 5px;
+    box-sizing: border-box;
+    float: left; }
+  .input div,
+  .input .mgsCode {
+    width: 45%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    float: right;
+    background: #b94a4e;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    border: 0;
+    outline: 0; }
+  .input img {
+    width: 45%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    float: right;
+    border: 1px solid #ccc;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px; }
+
+.submit {
+  margin-top: 15px !important; }
+
+.confirm {
+  margin-top: 130px; }
+  .confirm b {
+    font-size: 24px; }
+  .confirm a {
+    font-size: 20px;
+    color: #c0b6a1;
+    margin: 5px 0 20px 0;
+    display: block;
+    text-align: center;
+    padding: 10px 0; }
+
+.alertPops {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  display: block;
+  display: none; }
+  .alertPops div {
+    line-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -omz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 0 5px;
+    font-size: 14px; }
+
+.font1,
+.font2 {
+  display: block;
+  width: 68%;
+  margin: 15px auto; }
+
+.loding {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  display: none; }
+
+.sk-circle {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -omz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
+  .sk-circle img {
+    width: 100%;
+    height: 100%; }
